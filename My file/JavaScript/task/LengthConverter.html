@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <style>
+        .box{
+            background-color: rgb(241, 126, 143);
+            height: 20rem;
+            width:24rem;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 15%;
+        }
+        h1{
+            font-size: 40px;
+        }
+        #box1{
+            height: 20px;
+            width: 15rem;
+            font-size: 20px;
+        }
+        /* button{
+            height: 25px;
+            width: 10rem;
+            font-size: 15px;
+            border-radius: 5px;
+            background-color: gray;
+            color: aliceblue;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <br>
+        <h1 >Length Converter</h1>
+        <br>
+        <div>
+        <input id="input" oninput="convert()" type="text" placeholder="length in cm..">
+        </div>
+        <!-- <br><br><br>
+        <button type="submit" onclick="convert()">Convert to inches</button><br><br> -->
+        <div id="result"></div>
+    </div>
+    <script src="LC.js">
+        
+    </script>
+</body>
+</html>
